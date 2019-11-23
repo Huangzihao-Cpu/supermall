@@ -1,0 +1,17 @@
+1.克隆方式，复制：git add . ;git commit -m '项目名';git push
+
+2.创建空仓库,直接连接远程仓库，
+git remote origin 地址 
+git push -u origin master
+
+
+一.划分目录结构：
+components放公共组件
+common：完全公共，不只当前项目
+context：当前项目公共内容
+
+views公共视图
+
+src下的common：公共js,公共方法
+
+二.
